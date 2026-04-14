@@ -1,0 +1,453 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Shamim Alam | Front-End Developer</title>
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&family=Fira+Code&display=swap"
+    rel="stylesheet">
+
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+  <!-- AOS Animation CSS -->
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <!-- Navigation -->
+  <nav class="navbar">
+    <a href="#" class="logo">
+      <span class="accent">&lt;</span>S.Alam<span class="accent">/&gt;</span>
+    </a>
+    <ul class="nav-links">
+      <li><a href="#about">About</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#achievements">Achievements</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#contact">Contact</a></li>
+      <li><a href="#" class="btn-resume">Resume</a></li>
+    </ul>
+    <div class="hamburger">
+      <div class="line"></div>
+      <div class="line"></div>
+      <div class="line"></div>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <section id="hero" class="hero-section">
+    <div id="canvas-container"></div> <!-- Three.js Background -->
+    <div class="hero-content" data-aos="fade-up" data-aos-duration="1000">
+      <p class="greeting">Hey, I'm</p>
+      <h1 class="name">Shamim Alam.</h1>
+      <h2 class="title">I build things for the web.</h2>
+      <p class="description">
+        I'm a <span class="accent">Front-End Developer</span> specializing in building exceptional digital experiences.
+        Currently, I'm focused on building accessible, human-centered products.
+      </p>
+      <div class="typing-container">
+        I specialize in <span class="typing-text"></span>
+      </div>
+      <div class="cta-buttons">
+        <a href="#projects" class="btn btn-primary">View Projects</a>
+        <a href="#contact" class="btn btn-secondary">Contact Me</a>
+      </div>
+    </div>
+    <div class="scroll-down">
+      <span>Scroll Down</span>
+      <i class="fas fa-chevron-down"></i>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section id="about" class="section">
+    <div class="container">
+      <h2 class="section-title" data-aos="fade-right">About Me</h2>
+      <div class="about-content-wrapper">
+        <div class="about-text glass-card" data-aos="fade-right">
+          <p class="lead-text">
+            Hello! My name is Shamim and I enjoy creating things that live on the internet.
+            My interest in web development started back when I decided to try editing custom Tumblr themes —
+            turns out hacking together HTML & CSS is pretty fun!
+          </p>
+          <p>
+            Fast-forward to today, I'm a student at <span class="accent">Ahsanullah University of Science and Technology
+              (AUST)</span>.
+            My main focus these days is building accessible, inclusive products and digital experiences for a variety of
+            clients.
+          </p>
+          <p>
+            Here are a few technologies I've been working with recently:
+          </p>
+          <ul class="about-skills-list">
+            <li><i class="fas fa-caret-right accent"></i> JavaScript (ES6+)</li>
+            <li><i class="fas fa-caret-right accent"></i> React.js</li>
+            <li><i class="fas fa-caret-right accent"></i> WordPress</li>
+            <li><i class="fas fa-caret-right accent"></i> Tailwind CSS</li>
+            <li><i class="fas fa-caret-right accent"></i> Bootstrap 5</li>
+            <li><i class="fas fa-caret-right accent"></i> Html & Css</li>
+          </ul>
+        </div>
+        <div class="about-img-wrapper" data-aos="fade-left">
+          <div class="circle-container">
+            <img src="shamim1.jpg" alt="About Image" class="about-img-circle" />
+
+            <!-- Decorative Ring -->
+            <div class="decorative-ring"></div>
+
+            <!-- Status Badge -->
+            <div class="status-badge">
+              <span class="pulse-dot"></span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Skills Section -->
+  <section id="skills" class="section">
+    <div class="container">
+      <h2 class="section-title" data-aos="fade-right">Technical Skills</h2>
+      <div class="skills-grid">
+        <!-- Skill Card 1 -->
+        <div class="skill-card glass-card" data-tilt data-aos="zoom-in" data-aos-delay="100">
+          <i class="fab fa-html5 icon"></i>
+          <h3>HTML5</h3>
+        </div>
+        <!-- Skill Card 2 -->
+        <div class="skill-card glass-card" data-tilt data-aos="zoom-in" data-aos-delay="200">
+          <i class="fab fa-css3-alt icon"></i>
+          <h3>CSS3</h3>
+        </div>
+        <!-- Skill Card 3 -->
+        <div class="skill-card glass-card" data-tilt data-aos="zoom-in" data-aos-delay="300">
+          <i class="fab fa-js icon"></i>
+          <h3>JavaScript</h3>
+        </div>
+        <!-- Skill Card 4 -->
+        <div class="skill-card glass-card" data-tilt data-aos="zoom-in" data-aos-delay="400">
+          <i class="fab fa-react icon"></i>
+          <h3>React</h3>
+        </div>
+        <!-- Skill Card 5 -->
+        <div class="skill-card glass-card" data-tilt data-aos="zoom-in" data-aos-delay="500">
+          <i class="fab fa-wordpress icon"></i>
+          <h3>WordPress</h3>
+        </div>
+        <!-- Skill Card 6 (New Bootstrap) -->
+        <div class="skill-card glass-card" data-tilt data-aos="zoom-in" data-aos-delay="600">
+          <i class="fab fa-bootstrap icon"></i>
+          <h3>Bootstrap</h3>
+        </div>
+        <!-- Skill Card 7 -->
+        <div class="skill-card glass-card" data-tilt data-aos="zoom-in" data-aos-delay="700">
+          <i class="fas fa-wind icon"></i>
+          <h3>Tailwind</h3>
+        </div>
+        <!-- Skill Card 8 -->
+        <div class="skill-card glass-card" data-tilt data-aos="zoom-in" data-aos-delay="800">
+          <i class="fab fa-git-alt icon"></i>
+          <h3>Git & GitHub</h3>
+        </div>
+        <!-- Skill Card 9 -->
+        <div class="skill-card glass-card" data-tilt data-aos="zoom-in" data-aos-delay="900">
+          <i class="fas fa-code icon"></i>
+          <h3>C / C++</h3>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Achievements Section -->
+  <section id="achievements" class="section">
+    <div class="container">
+      <h2 class="section-title" data-aos="fade-right">Achievements</h2>
+      <div class="achievements-grid">
+
+        <div class="achievement-card glass-card" data-aos="fade-up">
+          <div class="ach-icon">
+            <i class="fas fa-trophy"></i>
+          </div>
+          <h3>Best Web Design Award</h3>
+          <p>Won 4th place in the AUST Inter-Department Web Design Competition 2024.</p>
+          <span class="date">2024</span>
+        </div>
+
+        <div class="achievement-card glass-card" data-aos="fade-up" data-aos-delay="100">
+          <div class="ach-icon">
+            <i class="fas fa-certificate"></i>
+          </div>
+          <h3>Academic Achievement</h3>
+          <p>Earned government scholarships in both JSC and SSC examinations, recognizing strong academic performance.
+          </p>
+          <span class="date">2017 & 2014</span>
+        </div>
+
+        <div class="achievement-card glass-card" data-aos="fade-up" data-aos-delay="200">
+          <div class="ach-icon">
+            <i class="fas fa-users"></i>
+          </div>
+          <h3>Programming Contest Achievement</h3>
+          <p>Placed 6th in the AUST Programming Contest as part of a team, solving algorithmic and logical programming
+            problems under
+            time constraints.</p>
+          <span class="date">2023</span>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Projects Section -->
+  <section id="projects" class="section">
+    <div class="container">
+      <h2 class="section-title" data-aos="fade-right">Featured Projects</h2>
+      <div class="projects-grid">
+
+        <!-- Project 1 -->
+        <div class="project-card glass-card" data-tilt data-aos="fade-up">
+          <div class="project-header">
+            <i class="far fa-folder folder-icon"></i>
+            <div class="project-links">
+              <a href="https://github.com/shamim-01/e-Commarce" target="_blank"><i class="fab fa-github"></i></a>
+              <a href="https://shamim-01.github.io/e-Commarce/" target="_blank"><i
+                  class="fas fa-external-link-alt"></i></a>
+            </div>
+          </div>
+          <h3 class="project-title">E-Commerce Dashboard</h3>
+          <p class="project-desc">A responsive dashboard built with React and Tailwind CSS featuring dark mode and data
+            visualization.</p>
+          <ul class="tech-stack">
+            <li>HTML5</li>
+            <li>CSS3</li>
+            <li>JavaScript</li>
+          </ul>
+        </div>
+
+        <!-- Project 2 -->
+        <div class="project-card glass-card" data-tilt data-aos="fade-up" data-aos-delay="100">
+          <div class="project-header">
+            <i class="far fa-folder folder-icon"></i>
+            <div class="project-links">
+              <a href="https://github.com/shamim-01/Personal_Protfolio1" target="_blank"><i
+                  class="fab fa-github"></i></a>
+              <a href="https://shamim-01.github.io/Personal_Protfolio1/" target="_blank"><i
+                  class="fas fa-external-link-alt"></i></a>
+            </div>
+          </div>
+          <h3 class="project-title">Portfolio V1</h3>
+          <p class="project-desc">My first portfolio website designed to showcase my early projects and skills.</p>
+          <ul class="tech-stack">
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JS</li>
+            <li>Three.js</li>
+          </ul>
+        </div>
+
+        <!-- Project 3 -->
+        <div class="project-card glass-card" data-tilt data-aos="fade-up" data-aos-delay="200">
+          <div class="project-header">
+            <i class="far fa-folder folder-icon"></i>
+            <div class="project-links">
+              <a href="https://github.com/shamim-01/To-do-System" target="_blank"><i class="fab fa-github"></i></a>
+              <a href="https://shamim-01.github.io/To-do-System/" target="_blank"><i
+                  class="fas fa-external-link-alt"></i></a>
+            </div>
+          </div>
+          <h3 class="project-title">Task Manager App</h3>
+          <p class="project-desc">A productivity application allowing users to organize tasks with drag and drop
+            functionality.</p>
+          <ul class="tech-stack">
+            <li>JavaScript</li>
+            <li>LocalStorage</li>
+            <li>CSS Grid</li>
+          </ul>
+        </div>
+
+        <!-- Project 4 -->
+        <div class="project-card glass-card" data-tilt data-aos="fade-up">
+          <div class="project-header">
+            <i class="far fa-folder folder-icon"></i>
+            <div class="project-links">
+              <a href="https://github.com/shamim-01/tailwind" target="_blank"><i class="fab fa-github"></i></a>
+              <a href="https://shamim-01.github.io/tailwind/" target="_blank"><i
+                  class="fas fa-external-link-alt"></i></a>
+            </div>
+          </div>
+          <h3 class="project-title">Tailwind-based Travel Website</h3>
+          <p class="project-desc">A custom Tailwind CSS theme developed for a local business with SEO optimization.</p>
+          <ul class="tech-stack">
+            <li>Tailwind CSS</li>
+            <li>HTML5</li>
+            <li>JavaScript (Basic)</li>
+          </ul>
+        </div>
+
+        <!-- Project 5 -->
+        <div class="project-card glass-card" data-tilt data-aos="fade-up" data-aos-delay="100">
+          <div class="project-header">
+            <i class="far fa-folder folder-icon"></i>
+            <div class="project-links">
+              <a href="https://github.com/shamim-01/react-project?tab=readme-ov-file" target="_blank"><i
+                  class="fab fa-github"></i></a>
+              <a href="https://react-project-adq4.vercel.app/" target="_blank"><i
+                  class="fas fa-external-link-alt"></i></a>
+            </div>
+          </div>
+          <h3 class="project-title">SaaS Marketing Landing Page.</h3>
+          <p class="project-desc">A modern landing page for a SaaS product with interactive elements and smooth
+            animations.</p>
+          <ul class="tech-stack">
+            <li>React 19</li>
+            <li>Vite</li>
+            <li>Tailwind CSS</li>
+            <li>Framer Motion</li>
+          </ul>
+        </div>
+
+        <!-- Project 6 -->
+        <div class="project-card glass-card" data-tilt data-aos="fade-up" data-aos-delay="200">
+          <div class="project-header">
+            <i class="far fa-folder folder-icon"></i>
+            <div class="project-links">
+              <a href="https://github.com/shamim-01/tailwind-project?tab=readme-ov-file" target="_blank"><i
+                  class="fab fa-github"></i></a>
+              <a href=" https://tailwind-projectt.netlify.app" target="_blank"><i
+                  class="fas fa-external-link-alt"></i></a>
+            </div>
+          </div>
+          <h3 class="project-title">Programming Learning Website</h3>
+          <p class="project-desc">An interactive website for learning modern programming concepts with real-time
+            examples.</p>
+          <ul class="tech-stack">
+            <li>TailwindCss</li>
+            <li>HTML5</li>
+            <li>JavaScript (Basic)</li>
+          </ul>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Education Section (Updated with SSC & Results) -->
+  <section id="education" class="section">
+    <div class="container">
+      <h2 class="section-title" data-aos="fade-right">Education</h2>
+      <div class="timeline">
+
+        <!-- University -->
+        <div class="timeline-item" data-aos="fade-left">
+          <div class="timeline-dot"></div>
+          <div class="timeline-content glass-card">
+            <h3>B.Sc. in Computer Science & Engineering</h3>
+            <h4>Ahsanullah University of Science and Technology (AUST)</h4>
+            <span class="date">2021 - 2025 | <span class="accent">CGPA: 3.329/4.00</span></span>
+            <p>Currently pursuing my degree with a focus on software engineering and web technologies.</p>
+          </div>
+        </div>
+
+        <!-- HSC -->
+        <div class="timeline-item" data-aos="fade-left" data-aos-delay="100">
+          <div class="timeline-dot"></div>
+          <div class="timeline-content glass-card">
+            <h3>Higher Secondary Certificate (HSC)</h3>
+            <h4>Shyamnagar Govt. Mohashin Degree College</h4>
+            <span class="date">2017 - 201 | <span class="accent">GPA: 5.00/5.00</span></span>
+            <p>Majoring in Science with a strong foundation in Mathematics and Physics.</p>
+          </div>
+        </div>
+
+        <!-- SSC (New) -->
+        <div class="timeline-item" data-aos="fade-left" data-aos-delay="200">
+          <div class="timeline-dot"></div>
+          <div class="timeline-content glass-card">
+            <h3>Secondary School Certificate (SSC)</h3>
+            <h4>Nakipur H.C Pilot Model High School</h4>
+            <span class="date">2011 - 2016 | <span class="accent">GPA: 5.00/5.00</span></span>
+            <p>Completed secondary education with a focus on Science and Mathematics.</p>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="section">
+    <div class="container">
+      <h2 class="section-title" data-aos="fade-right">Get In Touch</h2>
+      <div class="contact-wrapper glass-card" data-aos="zoom-in">
+        <div class="contact-info">
+          <h3>Let's talk about everything!</h3>
+          <p>Don't like forms? Send me an email.</p><br>
+          <p class="contact-item">
+            <i class="fa-solid fa-envelope"></i>
+            <a href="mailto:alam.cse.4001@gmail.com">alam.cse.4001@gmail.com</a>
+          </p>
+          <br>
+          <p class="contact-item">
+            <i class="fa-brands fa-whatsapp"></i>
+            <a href="https://wa.me/8801880003042" target="_blank">01880-003042</a>
+          </p>
+          <div class="social-links">
+            <a href="https://github.com/shamim-01"><i class="fab fa-github"></i></a>
+            <a href="https://www.linkedin.com/in/shamim-alam-620719330/"><i class="fab fa-linkedin"></i></a>
+          </div>
+        </div>
+
+        <!-- ✅ Formspree Form with Your URL -->
+        <form class="contact-form" action="https://formspree.io/f/xeerawwy" method="POST">
+
+          <div class="form-group">
+            <input type="text" id="name" name="name" required placeholder=" ">
+            <label for="name">Your Name</label>
+          </div>
+
+          <div class="form-group">
+            <input type="email" id="email" name="email" required placeholder=" ">
+            <label for="email">Your Email</label>
+          </div>
+
+          <div class="form-group">
+            <textarea id="message" name="message" rows="5" required placeholder=" "></textarea>
+            <label for="message">Message</label>
+          </div>
+
+          <button type="submit" class="btn btn-primary">Send Message</button>
+        </form>
+
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <p>Designed & Built by <span class="accent">Shamim Alam</span></p>
+    <div class="footer-icons">
+      <a href="https://www.instagram.com/sha_mim_49/"><i class="fab fa-instagram"></i></a>
+      <a href="https://www.facebook.com/shamim.alam.78/"><i class="fab fa-facebook"></i></a>
+    </div>
+  </footer>
+
+  <!-- Scripts -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/vanilla-tilt/1.7.0/vanilla-tilt.min.js"></script>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
