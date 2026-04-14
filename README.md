@@ -45,7 +45,6 @@ experience.
 ## 📁 Project Structure
 
 ```
-second/
 ├── index.html      # Main HTML file
 ├── style.css       # Styling and animations
 ├── script.js       # JavaScript functionality
